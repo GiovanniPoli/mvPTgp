@@ -116,7 +116,7 @@ It engages a standard PC for a few hours.
 Make sure that:
 
 * Folder `RESULTS_GPPT_SIM_v2.rds` is stored in `R` working directory.
-* The structure of those folders recalls the structure of the [shared folder](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing){target="_blank"}.
+* The structure of those folders recalls the structure of the [shared folder](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing).
 * All packages are properly installed.
 
 Now simply run manually (via source button) or via console (using your own corect path) the `B_Polya_Tree_Meta_Analysis_simulation_post.R` script. E.g.:
@@ -129,7 +129,7 @@ source("B_Polya_Tree_Meta_Analysis_simulation_post.R")
 Make sure that
 
 * `Star_PFSr_02112023.rds`, `Model_02112023.rds` and `Post_real_data.rds`  are stored in `R` working directory.
-* The structure of that folder recalls the structure from the  [shared folder](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing){target="_blank"}. 
+* The structure of that folder recalls the structure from the  [shared folder](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing). 
 * All packages are properly installed.
 
 Now simply run `B_Polya_Tree_PFS.R` script. E.g.:
