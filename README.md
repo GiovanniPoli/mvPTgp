@@ -43,11 +43,6 @@ library(mixmeta)
 
 ```
 
-```{r c0, echo=TRUE, message=FALSE, warning=FALSE}
-sessionInfo()
-```
-
-
 # Section 2: 
 
 This section describes the steps to fully reproduce the results of the study, using the original code.
@@ -58,7 +53,7 @@ The steps described in this Section require the installation of packages listed 
 Computation time depends on the cores available for parallel computation. 
 By default the script will use the number of detected logical cores minus 2.
 
-### Reproduce MCMC chains simulations {#s2-ss1}
+### Reproduce MCMC chains simulations
 Make sure the  `Scripts` and `Dati` folders and the other files are in the same folder. 
 After that, manually (using source button) or via console (using your own correct path) run `source_file.R`.
 This file creates the folder needed to systematically save the chains and will set the working directory as the folder where files are stored. E.g:  
@@ -70,7 +65,7 @@ After that, you can run the simulation script.
 source("A_Polya_Tree_Meta_Analysis_simulation_seed_1_50.R")
 ```
 
-### Reproduce MCMC chain for real data {#s2-ss2}
+### Reproduce MCMC chain for real data
 Running both the data and simulations scripts is not required.
 As in previous section, make sure the `Scripts` and `Dati` folders and the other files are stored in the same folder. 
 Then, simply run the script `source_file.R` or set the working directory in the folder using `setwd("my-path")`.
@@ -83,8 +78,8 @@ After that run the script `A_Polya_Tree_PFS.R`.
 source("A_Polya_Tree_PFS.R")
 ```
 
-### Download results       {#s2-ss3}
-Intermediate results can be downloaded at this [link](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing){target="_blank"}.
+### Download results  
+Intermediate results can be downloaded at this [link](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing).
 You can download the full folder.
 Alternatively, you can download  compressed folder that store all the necessary files (i.e. `PTGP_simulation.zip`) and target `.rds` objects for target checks (e.g., `Model_02112023.rds`).
 
@@ -92,7 +87,7 @@ In any case, make sure to follow the correct folder structure created following 
 
 To reproduce Figures follows step in [Section 3](#s3).
 
-# Section 3: {#s3}
+# Section 3: 
 
 After each one of these steps, the desired graphs will be saved in `.PDF` format in the R working directory.
 
@@ -100,7 +95,7 @@ After each one of these steps, the desired graphs will be saved in `.PDF` format
 Make sure that:
 
 * Folder `PTGP_simulation` contains all 50 chains.
-* The structure of those folders recalls the structure of the [shared folder](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing){target="_blank"}.
+* The structure of those folders recalls the structure of the [shared folder](https://drive.google.com/drive/folders/11LrUmWVdpX2sUCE354xLjKVNywFZNtXR?usp=sharing)
 * All packages are properly installed.
 
 Now simply run manually (via source button) or via console (using your own corect path) the `A_Polya_Tree_Meta_Analysis_simulation_post.R` script. E.g.:
@@ -138,7 +133,7 @@ Now simply run `B_Polya_Tree_PFS.R` script. E.g.:
 source("B_Polya_Tree_PFS.R", echo=TRUE)
 ```
 
-# Section 4: {#s5}
+# Section 4:
 
 Here we we briefly describe files in the shared folder:
 
