@@ -11,7 +11,7 @@ h3 {color: #4a4d7d}
 - Steps described in [Section 3](#s3) reproduce all graphs included in the article.
 - All the  files in online shared folder are described in [Section 4](#s5).
 
-# Section 1:   {#s1}
+# Section 1:   
 
 The required packages are listed below, all are available on `CRAN` and can be easly installed using `install.packages("name-of-package")`.
 
