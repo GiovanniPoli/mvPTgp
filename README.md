@@ -6,7 +6,7 @@ Welcome to the GitHub repository dedicated to the scientific draft titled "A Mul
 - [Section 2](#s3) contains a guide to fully reproduce the results of simulations and analysis on real data. This may require <b>several days of running</b> on a desktop PC. Alternatively, results (i.e., the MCMC chains and simulated data) can be downloaded following procedure described in Subsection [Download results](#dr).
 - Steps described in [Section 3](#s3) reproduce all graphs included in the article.
 - All the  files in online shared folder are described in [Section 4](#s5).
-- 
+
 ![alt text](https://github.com/GiovanniPoli/mvPTgp/blob/progetto/Plots/FIG.png?raw=true)
 
 # Section 1:   
