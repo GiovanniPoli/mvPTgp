@@ -1,13 +1,6 @@
-
-```{css, echo = FALSE}
-h1 {color: #0f0f6e} 
-h2 {color: #1c1e3d}
-h3 {color: #4a4d7d}
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {background-color: #0f0f6e; border-color: #00adef}
-```
 # Introduction
 - Packages used and version of R are detailed in [Section 1](#s1).
-- [Section 2](#s2) contains a guide to fully reproduce the results of simulations and analysis on real data. This may require <b>several days of running</b> on a desktop PC. Alternatively, results (i.e., the MCMC chains and simulated data) can be downloaded following procedure described [here](#s2-ss3).
+- [Section 2](#Section 2:) contains a guide to fully reproduce the results of simulations and analysis on real data. This may require <b>several days of running</b> on a desktop PC. Alternatively, results (i.e., the MCMC chains and simulated data) can be downloaded following procedure described [here](#s2-ss3).
 - Steps described in [Section 3](#s3) reproduce all graphs included in the article.
 - All the  files in online shared folder are described in [Section 4](#s5).
 
@@ -15,7 +8,7 @@ h3 {color: #4a4d7d}
 
 The required packages are listed below, all are available on `CRAN` and can be easly installed using `install.packages("name-of-package")`.
 
-### Pakages required {#s1-ss1}
+### Pakages required
 
 ```{r c00, eval=TRUE, message=FALSE, warning=FALSE, echo=TRUE}
 library(gridExtra)
@@ -55,7 +48,7 @@ sessionInfo()
 ```
 
 
-# Section 2:   {#s2}
+# Section 2: 
 
 This section describes the steps to fully reproduce the results of the study, using the original code.
 This can be time-consuming.
